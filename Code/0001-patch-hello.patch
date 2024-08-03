@@ -1,0 +1,24 @@
+# This patch changes the greeting message in hello.c
+# From: "Hello Deep"
+# To: "Hello World"
+#
+# Author: Your Name
+# Date: 2024-08-03
+
+--- hello.c | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello.c b/hello.c
+index 6f31000..d925dda 100644
+--- hello.c
++++ hello.c
+@@ -1,7 +1,7 @@
+ #include<stdio.h>
+ 
+ int main()
+ {
+-        printf("Hello Deep\n");
++        printf("Hello World\n");
+         return 0;
+ }
+-- 
